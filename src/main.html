@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moment 3- EcmaScript</title>
+    <link href="./css/sass.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="topnav">
+            <a href="#" id="active" class="active">DT173G</a>
+            <div id="myLinks">
+            <a href="#">Startsida</a>
+            <a href="#">Nyheter</a>
+            <a href="#">Mina sidor</a>
+            <a href="#">Om oss</a>
+            <a href="#">Kontakt</a>
+        </div>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+        </a>
+        </div>   
+    
+    </header>
+   <main> 
+
+    <div class="container">
+        <h1 class="h1">Moment 3 - DT173G</h1>
+    <div class="content"> 
+<div  class="box"> 
+<h2 class="h"> Utskrift för ForEach </h2>
+<p class="text"> lägg till 12 % moms för varje element i den här arrayen [50, 100, 200, 1000] </p>
+<ul id ="numberslist"> </ul>
+</div>
+<div class="box"> 
+    <h2 class="h"> Utskrift för Arrow function</h2>
+    <p id="Arrow"></p>
+</div>
+</div>
+<div class="Utskrift"> 
+ <h2 class="h"> Utskrift för map </h2>
+ <p class="text"> Skapa en ny array från en tidigare array som innehåller två objekt, "firstname" och "lastname". </p>
+ 
+<p class="text"> array som vi ska arbeta med har denna form : <br> 
+    names = [ <br> 
+    { firstName: 'Najah', lastName: 'Hawa' }, <br> 
+    { firstName: 'Danil', lastName: 'Svensson' },<br> 
+    { firstName: 'Mattias', lastName: 'Dahlgren' },<br> 
+    { firstName: 'Malin', lastName: 'larsson' },<br> 
+   ]</p>
+   <p class="text"> I den nya arrayen får vi namn sammanlagt med fistname och lastname så här: </p>
+<ul id="map"> </ul>
+</div>
+
+   
+<h2 class="h1">En eller flera arayer</h2>
+<div  class="content"> 
+<div class="box">
+<h3 class="h">Array.from </h3>
+<p class="text">Array.from skapar en ny array utifrån givet värde. Från VÄRDET "Najah" skapar vi en ny array. </p>
+<p id="array-from" class="text"> </p>
+<p class="text" >Går även att i andra argumentet utföra beräkningar och liknande. vvi har en array som t.ex. prices = [100, 200, 300] och vi vill lägga 25% för varje element. . och vi lägger vi moms på 25% för varrje element </p>
+<p id="array-from2" class="text"> </p>
+ </div>
+ <div class="box"> 
+<h3 class="h">Array.fill</h3>
+<p class="text">Array.fill fyller ut en array med givna värden.</p>
+<p class="text">Om vi har en array som har dessa värde ["t_shirt", "skrift", "dress", "hat"] och vi vill ändra det så använder vi ayyar-fill</p>
+
+<p class="text">Fyll de två senaste element med ordet "hells" </p>
+<p id="array-fill" class="text"> </p>
+</div>
+</div>
+</div>
+    </main>
+    <script  src="./js/main.js"> </script>
+
+    <footer> 
+        <p>  © COPYRIGHT för Najah Hawa</p>
+     </footer>
+     </body>
+     </html>
